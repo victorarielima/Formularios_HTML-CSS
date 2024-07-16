@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breafing</title>
+</head>
+<body>
+    <div> 
+        <h1 id="Titulo">Breafing para leanding page </h1>
+        <p id="Subtitulo"> Preencha abaixo as suas informações </p>
+        <br>
+    </div>
+
+    <form >
+        <fieldset class="Grupo"> 
+            <div>
+                <label for="Nome"><strong> Nome </strong></label>
+                <input type="text" name="Nome" id="Nome" required> 
+            </div>
+
+            <div>
+                <label for="Sobrenome"><strong> Sobrenome </strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome"required>
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="Obejetivo"><strong> Obejetivo </strong></label>
+            <input type="text"name="Obejetivo" id="Obejetivo" required>
+        </div>   
+        
+        <div>
+            <label for="Local"><strong>Local</strong></label>
+            <input type="text"name="Local"id="Local"required>
+        </div>
+
+        <div>  
+            <label><strong>Qual o tipo de serviço que você gostaria de aderir ?</strong></label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="servicos" value="LeandingPage" checked>Leanding Page
+            </label>
+            <label>
+                <input type="radio" name="servicos" value="SEO">SEO
+            </label>
+            <label>
+                <input type="radio" name="servicos" value="TrafegoPago">Trafego Pago
+            </label>
+            <label>
+                <input type="radio" name="servicos" value="Sites">Criação de Sites
+            </label>
+        </div>
+
+        <div>
+            <h2>Acompanhamento</h2>
+            <p>Refere-se a uma manutenção ou atualização que é feita de forma periodica nos sites e leanding Pages</p>
+        </div>
+
+        <div>
+            <label>
+                <strong>Tipos de acompanhamento :</strong>
+                    <select id="Acompanhamento">s
+                        <option selected disabled value="" hidden>Selecione</option>
+                        <option>Mensal</option>
+                        <option>Bimestral</option>
+                        <option>Trimestral</option>
+                    </select>
+            </label>
+        </div><br>
+
+        <fieldset class="Grupo">
+            <div>
+                <label><strong>Conte como você nos conheceu ?</strong></label><br><br>
+                <input type="checkbox" name="Instagram" value="Instagram">
+                <label for="Instagram">Instagram</label>
+                <input type="checkbox" name="Linkedin" value="Linkedin">
+                <label for="Linkedin">Linkedin</label>
+                <input type="checkbox" name="Whatsapp" value="Whatsapp">
+                <label for="Whatsapp">Whatsapp</label>
+                <input type="checkbox" name="Twitter" id="Twitter">
+                <label for="Twitter">Twitter</label>
+                <input type="checkbox" name="Site" id="Site">
+                <label for="Site">Site</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label><strong>Fale um pouco sobre sobre o seu diferencial no mercado e nos conte um pouco da sua historia para que possamos entender mais sobre seu negocio.</strong></label>
+            <textarea row="6" style="width: 50em"  name="historia" id="historia"></textarea>    
+        </div>
+
+        <button type="submit">Concluir</button>
+
+
+    </form>
+
+
+    
+</body>
+</html>
