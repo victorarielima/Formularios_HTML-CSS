@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
     <title>Breafing</title>
 </head>
 <body>
     <div> 
-        <h1 id="Titulo">Breafing para leanding page </h1>
-        <p id="Subtitulo"> Preencha abaixo as suas informações </p>
+        <h1 id="Titulo">Breafing de serviços</h1>
+        <p id="Subtitulo">Complete suas informações</p>
         <br>
     </div>
 
@@ -24,19 +25,16 @@
                 <input type="text" name="Sobrenome" id="Sobrenome"required>
             </div>
         </fieldset>
-
-        <div class="campo">
-            <label for="Obejetivo"><strong> Obejetivo </strong></label>
-            <input type="text"name="Obejetivo" id="Obejetivo" required>
-        </div>   
         
-        <div class="campo">
-            <label for="Local"><strong>Local</strong></label>
-            <input type="text"name="Local"id="Local"required>
-        </div>
+            <div class="campo">
+                <label for="Obejetivo"><strong> Obejetivo </strong></label>
+                <input type="text"name="Obejetivo" id="Obejetivo" required>
+            </div>   
+        
 
         <div class="campo">  
             <label><strong>Qual o tipo de serviço que você gostaria de aderir ?</strong></label>
+            <br> <br>
             <label>
                 <input type="radio" name="servicos" value="LeandingPage" checked>Leanding Page
             </label>
@@ -51,11 +49,6 @@
             </label>
         </div>
 
-        <div>
-            <h2 id="Subtitulo2">Acompanhamento</h2>
-            <p id="legenda">Refere-se a uma manutenção ou atualização que é feita de forma periodica nos sites e leanding Pages</p>
-        </div>
-
         <div class="campo">
             <label for="Acompanhamento"> <strong> Tipos de acompanhamento :</strong></label>
                 <select id="Acompanhamento">s
@@ -67,7 +60,7 @@
         </div>
 
         <fieldset class="Grupo">
-            <div id="check">
+            <div id="Check">
                 <label><strong>Conte como você nos conheceu ?</strong></label><br><br>
                 <input type="checkbox" name="Instagram" value="Instagram">
                 <label for="Instagram">Instagram</label>
@@ -84,8 +77,8 @@
 
         <div class="campo">
             <br>
-            <label for="historia"><strong>Fale um pouco sobre sobre o seu diferencial no mercado e nos conte um pouco da sua historia para que possamos entender mais sobre seu negocio.</strong></label>
-            <textarea row="6" style="width: 50em"  name="historia" id="historia"></textarea>    
+            <label for="historia"><strong>Fale um pouco sobre sobre o seu diferencial no mercado </strong></label>
+            <textarea row="6" style="width: 26em; height:8em;"  name="historia" id="historia"></textarea>    
         </div>
 
         <button class="botao" type="submit">Concluir</button>
