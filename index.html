@@ -17,7 +17,7 @@
         <fieldset class="Grupo"> 
             <div class="campo">
                 <label for="Nome"><strong> Nome </strong></label>
-                <input type="text" name="Nome" id="Nome" required> 
+                <input type="text" name="Nome" id="Nome" required>
             </div>
 
             <div class=" campo">
@@ -33,8 +33,8 @@
             </div>
             <div class="campo">
                 <label for="Telefone"><strong> Telefone </strong></label>
-                <input type="tel" id="Telefone" pattern="\d{10,11}"
-                required>
+                <input type="tel" id="Telefone" pattern="\d{10,11}" 
+                required>    <!-- Utilizei o pattern para fazer a verificação da quantidade de números sendo 10 para o fixo e 11 para o celular, contando com o DDD -->
             </div>
         </fieldset>
 
@@ -57,7 +57,7 @@
 
         <div class="campo">
             <label for="Acompanhamento"> <strong> Tipos de acompanhamento :</strong></label>
-                <select id="Acompanhamento">s
+                <select id="Acompanhamento" required>
                     <option selected disabled value="" hidden>Selecione</option>
                     <option>Mensal</option>
                     <option>Bimestral</option>
